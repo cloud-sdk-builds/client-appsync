@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-appsync`](https://www.npmjs.com/package/@aws-sdk/client-appsync/v/3.1067.0).
+[`@aws-sdk/client-appsync`](https://www.npmjs.com/package/@aws-sdk/client-appsync/v/3.1068.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-appsync - [https://cloud-sdk-builds.github.io/?sdk=client-appsync](https://cloud-sdk-builds.github.io/?sdk=client-appsync)
-- @aws-sdk/client-appsync v3.1067.0 - [https://cloud-sdk-builds.github.io/?sdk=client-appsync&version=3.1067.0](https://cloud-sdk-builds.github.io/?sdk=client-appsync&version=3.1067.0)
+- @aws-sdk/client-appsync v3.1068.0 - [https://cloud-sdk-builds.github.io/?sdk=client-appsync&version=3.1068.0](https://cloud-sdk-builds.github.io/?sdk=client-appsync&version=3.1068.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1067.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1068.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Pv/stGBH///EW1vuoQdXRlPlVR0Qaufe3sdV3e2uSw8hoNe42Gy/raLekSwx/GcC
+sha384-8Z9u3KV7s68JfbBYfJbe7/UvyKDaHJ8dc46D3uirhrm5o9r1svTx355OL8T0bwfX
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-appsync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1067.0/index.min.mjs"
+            "@aws-sdk/client-appsync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1068.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1067.0/index.min.mjs": "sha384-Pv/stGBH///EW1vuoQdXRlPlVR0Qaufe3sdV3e2uSw8hoNe42Gy/raLekSwx/GcC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1068.0/index.min.mjs": "sha384-8Z9u3KV7s68JfbBYfJbe7/UvyKDaHJ8dc46D3uirhrm5o9r1svTx355OL8T0bwfX"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-appsync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1067.0/index.min.mjs"
+                        "@aws-sdk/client-appsync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1068.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1067.0/index.min.mjs": "sha384-Pv/stGBH///EW1vuoQdXRlPlVR0Qaufe3sdV3e2uSw8hoNe42Gy/raLekSwx/GcC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appsync@3.1068.0/index.min.mjs": "sha384-8Z9u3KV7s68JfbBYfJbe7/UvyKDaHJ8dc46D3uirhrm5o9r1svTx355OL8T0bwfX"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1067.0`)
+* Always pin to a specific version (`@3.1068.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-appsync/blob/refs/tags/3.1067.0/LICENSE
+https://github.com/cloud-sdk-builds/client-appsync/blob/refs/tags/3.1068.0/LICENSE
 ```
 
 ---
